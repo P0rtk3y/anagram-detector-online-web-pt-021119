@@ -6,7 +6,6 @@ class Anagram
   
   def initialize(word)
     @word = word 
-    binding.pry
   end 
   
   def match(array)
@@ -14,6 +13,7 @@ class Anagram
       if some_word.split("").sort == word.split("").sort
         some_word 
       end 
+      binding.pry
     end 
   end 
 end 
