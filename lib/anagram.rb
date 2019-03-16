@@ -15,7 +15,6 @@ class Anagram
         matches << some_word 
       end 
       matches 
-      binding.pry
     end 
   end 
 end 
